@@ -1,0 +1,149 @@
+.job-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.job-card {
+  background-color: #272727;
+  border-radius: 8px;
+  padding: 20px;
+  list-style-type: none;
+  margin-bottom: 16px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.job-card:hover {
+  transform: translateY(-4px);
+}
+
+.job-card-header {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.company-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 16px;
+}
+
+.job-title-rating {
+  flex: 1;
+}
+
+.job-title {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 0 8px 0;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.star-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+.rating {
+  color: #fbbf24;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.job-details {
+  margin-bottom: 16px;
+}
+
+.location-employment-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.location-container,
+.employment-type-container {
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+}
+
+.location-icon,
+.briefcase-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+.location,
+.employment-type {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin: 0;
+}
+
+.package {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.separator {
+  border: 1px solid #475569;
+  margin: 16px 0;
+}
+
+.job-description-container {
+  margin-top: 16px;
+}
+
+.description-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 0 8px 0;
+}
+
+.job-description {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+}
+
+/* Responsive Design */
+@media screen and (min-width: 768px) {
+  .job-card {
+    padding: 24px;
+  }
+
+  .job-card-header {
+    align-items: center;
+  }
+
+  .company-logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .job-title {
+    font-size: 20px;
+  }
+
+  .location-employment-container {
+    justify-content: space-between;
+  }
+}

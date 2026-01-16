@@ -1,0 +1,67 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+.not-found-image {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.not-found-heading {
+  color: #272727;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0 0 16px 0;
+}
+
+.not-found-description {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 24px 0;
+  max-width: 400px;
+}
+
+.home-button {
+  background-color: #4f46e5;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Responsive Design */
+@media screen and (min-width: 768px) {
+  .not-found-container {
+    padding: 40px;
+  }
+
+  .not-found-image {
+    width: 300px;
+    height: 300px;
+  }
+
+  .not-found-heading {
+    font-size: 32px;
+  }
+
+  .not-found-description {
+    font-size: 18px;
+  }
+}
